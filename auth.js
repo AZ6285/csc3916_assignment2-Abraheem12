@@ -13,6 +13,7 @@ passport.use(new BasicStrategy(
            return done(null, false);
        }
    }
+   //test
 ));
 
 exports.isAuthenticated = passport.authenticate('basic', { session: false });
